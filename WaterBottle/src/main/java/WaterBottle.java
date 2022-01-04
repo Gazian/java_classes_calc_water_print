@@ -14,4 +14,9 @@ public class WaterBottle {
         int newVolume = this.volume - drinkVolume;
         return newVolume;
     }
+
+    public static int emptyBottle(){
+        int volume = 0;
+        return volume;
+    }
 }
