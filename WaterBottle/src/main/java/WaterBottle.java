@@ -19,4 +19,9 @@ public class WaterBottle {
         int volume = 0;
         return volume;
     }
+
+    public static int fillBottle(){
+        int volume = 100;
+        return volume;
+    }
 }
