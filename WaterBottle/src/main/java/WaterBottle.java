@@ -8,4 +8,10 @@ public class WaterBottle {
     public int getVolume(){
         return this.volume;
     }
+
+    public int takeDrink(){
+        int drinkVolume = 10;
+        int newVolume = this.volume - drinkVolume;
+        return newVolume;
+    }
 }
