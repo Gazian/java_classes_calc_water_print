@@ -7,12 +7,17 @@ public class CalculatorTest {
 
     @Test
     public void calculatorCanAdd(){
-        assertEquals(8, Calculator.calculatorAdd(5,3));
+        assertEquals(9, Calculator.calculatorAdd(6,3));
     }
 
     @Test
     public void calculatorCanSubtract(){
-        assertEquals(2,Calculator.calculatorSubtract(5,3));
+        assertEquals(3,Calculator.calculatorSubtract(6,3));
+    }
+
+    @Test
+    public void calculatorCanMultiply(){
+        assertEquals(18,Calculator.calculatorMultiply(6,3));
     }
 
 }
