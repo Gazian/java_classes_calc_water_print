@@ -20,4 +20,9 @@ public class CalculatorTest {
         assertEquals(18,Calculator.calculatorMultiply(6,3));
     }
 
+    @Test
+    public void calculatorCanDivide(){
+        assertEquals(2.0,Calculator.calculatorDivide(6.0,3.0),0.0);
+    }
+
 }

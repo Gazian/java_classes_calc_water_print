@@ -14,4 +14,9 @@ public class Calculator {
         int total = (number1 * number2);
         return total;
     }
+
+    public static double calculatorDivide(double number1, double number2){
+        double total = (number1 / number2);
+        return total;
+    }
 }
